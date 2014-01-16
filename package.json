@@ -1,0 +1,28 @@
+{
+  "name": "node-nma-js",
+  "description": "Node.js API for NotifyMyAndroid, allowing to send notifications to your Android!",
+  "version": "0.0.1",
+  "tags": ["nma", "api", "notify", "push", "wrapper", "client", "android" ],
+  "private": false,
+  "author": "Björn Torkelsson <torkel@torkel.se>",
+  "contributors": [ "torkelsson (https://github.com/torkelsson)" ],
+  "engines": {
+    "node": ">= 0.4.10"
+  },
+  "dependencies": {
+    "request": "2.9.202",
+    "xml2js": "0.1.13"
+  },
+  "devDependencies": {
+    "should": "1.2.2",
+    "mocha": "1.8.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/torkelsson/node-nma.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/torkelsson/node-nma/issues"
+  },
+  "main": "./lib/nma"
+}
