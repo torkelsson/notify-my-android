@@ -1,5 +1,5 @@
 {
-  "name": "node-nma-js",
+  "name": "node-nma",
   "description": "Node.js API for NotifyMyAndroid, allowing to send notifications to your Android!",
   "version": "0.0.1",
   "tags": ["nma", "api", "notify", "push", "wrapper", "client", "android" ],
