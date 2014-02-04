@@ -1,4 +1,4 @@
-# node-nma - NMA for Node.js API
+# notify-my-android - NMA for Node.js API
 
 Be happy! Send notifications to androids using the [Notify My Android 
 service](http://www.notifymyandroid.com/). Simple, easy and clean.
@@ -7,7 +7,7 @@ As of now this API supports notify and only notify.
 
 ## Installation
 
-	npm install node-nma
+	npm install notify-my-android
 
 or put it in your package.json as usual and hit npm install. It depends
 on xml2js and request.
@@ -20,7 +20,7 @@ on the [Notify My Android website](http://www.notifymyandroid.com/).
 Initialize it with your key and start notifying!
 
 ```javascript
-var NMA = require('node-nma');
+var NMA = require('notify-my-android');
 
 var nma = new NMA('MY-API-KEY');
 ```
@@ -67,4 +67,4 @@ And voila, it autotests for you.
 
 ## Legacy
 
-node-nma is heavily based on [node-prowl}(https://github.com/arnklint/node-prowl.git).
+notify-my-android is heavily based on [node-prowl}(https://github.com/arnklint/node-prowl.git).

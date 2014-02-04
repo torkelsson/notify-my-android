@@ -1,4 +1,4 @@
-var NMA = require('../lib/nma');
+var NMA = require('../lib/notify-my-android');
 var nma = new NMA( process.env.NMA_KEY ); // be sure to insert your own here
 
 nma.notify('My app', 'The happiest day', 'This is the happiest day!', {

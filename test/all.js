@@ -1,7 +1,7 @@
 // NMA_KEY should be set to a valid API-key in the shell before 
 // running the unit test
 var should = require('should');
-var NMA = require('../lib/nma');
+var NMA = require('../lib/notify-my-android');
 var apikey = process.env.NMA_KEY; // be sure to insert your own api key here
 
 if ( !apikey ){
